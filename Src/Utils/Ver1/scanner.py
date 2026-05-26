@@ -76,7 +76,7 @@ def scan(path: str):
             
             found.append((c_type, name))
 
-    return found;
+    return found
 
 def emit_header(vars: list[tuple[str, str]], out_path: str, source_name: str):
     lines = [] 
